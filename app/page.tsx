@@ -1,6 +1,6 @@
 const App = () => {
   return (
-    <h1>Hello world Design Sytem</h1>
+    <h1 className="">Hello world Design Sytem</h1>
   )
 }
 
