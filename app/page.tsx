@@ -1,6 +1,8 @@
+import Button from "@/components/Button/Button"
+
 const App = () => {
   return (
-    <h1 className="">Hello world Design Sytem</h1>
+    <Button>teste</Button>
   )
 }
 
