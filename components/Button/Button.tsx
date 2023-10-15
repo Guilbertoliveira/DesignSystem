@@ -1,5 +1,5 @@
 //criando um componente personalizado e com funcionalidades de um botão
-type ButtonProps = {
+export type ButtonProps = {
     children: React.ReactNode;
 } & React.ButtonHTMLAttributes<ButtonProps> //com isso conseguimos pegar as propriedades existente do botão e adicionar o children
 
