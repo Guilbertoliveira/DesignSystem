@@ -2,8 +2,8 @@ import { Meta, StoryObj } from "@storybook/react"
 import Button from "./Button"
 
 const meta: Meta<typeof Button> = {
-    title: 'Button',
-    tags: ['autodocs'],
+    title: 'Moleculas/Button',
+    // tags: ['autodocs'],  com isso ele cria um documento automatico porém estamos realizando manual no intro.mdx
     component: Button,
     argTypes: {}
 }

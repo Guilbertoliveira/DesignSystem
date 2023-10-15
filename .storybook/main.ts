@@ -1,5 +1,6 @@
 import type { StorybookConfig } from "@storybook/nextjs";
 
+//esse arquivo é focado em configurar roteamento de todos os arquivos que serão utilziados para a documentação interativa
 const config: StorybookConfig = {
   stories: [  //todos os caminhos aonde serão procurados as documentações
     "../components/**/*.mdx",
@@ -16,7 +17,7 @@ const config: StorybookConfig = {
     options: {},
   },
   docs: {
-    autodocs: "tag",
+    autodocs: "tag", //configura documentação autogerada
   },
 };
 export default config;
