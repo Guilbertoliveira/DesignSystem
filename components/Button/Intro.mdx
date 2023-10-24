@@ -1,4 +1,4 @@
-import { Meta, Controls, Primary } from "@storybook/blocks"
+import { Meta, Controls, Primary, Canvas } from "@storybook/blocks"
 import * as Story from "./Button.stories.ts"
 
 # Botão
@@ -7,8 +7,11 @@ Este é um componente de botão
 
 <Meta of={Story}/>
 
-{/* cria um componente de um formato padrão primary */}
+{/* cria um componente de um formato padrão primary, sem variações */}
 <Primary />  
+
+{/* Canvas pede para ter uma referencia do componente(story, que está no stories) no caso com o of */}
+<Canvas of={Story.Violet}/>
 
 {/* cria todas as propriedades que estão variando desse componente */}
 <Controls />

@@ -5,7 +5,7 @@ export type ButtonProps = {
 
 const Button = ({ children, className }: ButtonProps) => {
     return (<button className={`
-    bg-primary rounded-[8px] px-[32px] py-[12px] text-white theme-violete
+    bg-primary bg-opacity-50 rounded-[8px] px-[32px] py-[12px] text-white 
     ${className}
     `
     }>{children}
