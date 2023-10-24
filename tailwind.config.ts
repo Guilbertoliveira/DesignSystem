@@ -6,12 +6,11 @@ const config: Config = {
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  theme: { //colocando embaixo do theme dentro das chaves {} voce sobrescreve as cores padrão 
-    // colors: {
-
-    // },
+  theme: { //colocando embaixo do theme dentro das chaves {} voce sobrescreve as cores/ e outras declarações padrões 
     extend: { // inserindo mais um modelo não sobrescrevendo nada
-      // colocando aqui as variaveis para usar no global depois
+      colors: {
+        primary: 'var(--primary)'
+      },
 
     },
   },

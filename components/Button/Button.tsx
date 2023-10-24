@@ -5,10 +5,11 @@ export type ButtonProps = {
 
 const Button = ({ children, className }: ButtonProps) => {
     return (<button className={`
-    bg-[#2D5BFF] rounded-[8px] px-[32px] py-[12px] text-white
+    bg-primary rounded-[8px] px-[32px] py-[12px] text-white theme-violete
     ${className}
     `
-    }>{children}</button>)
+    }>{children}
+    </button>)
 }
 
 export default Button
