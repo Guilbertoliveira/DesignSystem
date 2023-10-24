@@ -1,5 +1,5 @@
 import { Meta, StoryObj } from "@storybook/react"
-import Button from "./Button"
+import Button, { ButtonProps } from "./Button"
 
 const meta: Meta<typeof Button> = {
     title: 'Moleculas/Button',
@@ -13,8 +13,16 @@ export default meta
 
 //variantes do componente, todos os tipos que o componente poderá ter
 //com o typeof Button mostra que é do tipo generico e agora do tipo button, possuindo todas caracteristicas do button
-export const Primary: StoryObj<typeof Button> = {
+export const Primary: StoryObj<ButtonProps> = {
     args: { //propriedades do button
         children: 'Botão',
     }
-} 
+}
+
+//novo story, essa constante tem o tipo StoryObj como estrutura, e tem propriedades de estilo button
+export const Violet: StoryObj<ButtonProps> = {
+    args: {
+        children: 'Botão',
+        className: 'theme-violet'
+    }
+}

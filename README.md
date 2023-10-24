@@ -24,5 +24,7 @@ yarn storybook
 <h2>Figma do projeto:</h2>
 Ideia inicial do projeto como deveria ficar. <a href="https://abrir.link/Jk4D9">Link Figma</a>
 
+Padrões utilizados: <a href="https://abrir.link/zreUa">Link Figma padrões</a>
+
 <h2>Projeto do instrutor:</h2>
 Projeto modelo inicial do instrutor. <a href="https://github.com/alura-cursos/alfabit-design-system">Link github</a>

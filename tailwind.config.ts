@@ -9,7 +9,7 @@ const config: Config = {
   theme: { //colocando embaixo do theme dentro das chaves {} voce sobrescreve as cores/ e outras declarações padrões 
     extend: { // inserindo mais um modelo não sobrescrevendo nada
       colors: {
-        primary: 'var(--primary)'
+        primary: ({ opacityValue }) => `rgba(var(--primary), ${opacityValue})`
       },
 
     },
