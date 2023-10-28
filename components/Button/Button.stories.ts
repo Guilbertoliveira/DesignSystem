@@ -1,6 +1,9 @@
 import { Meta, StoryObj } from "@storybook/react"
 import Button, { ButtonProps } from "./Button"
 
+//essa pagina é referente aos componentes a parte que fica no menu lateral
+
+
 const meta: Meta<typeof Button> = {
     title: 'Moleculas/Button',
     // tags: ['autodocs'],  com isso ele cria um documento automatico porém estamos realizando manual no intro.mdx
@@ -20,7 +23,7 @@ export const Primary: StoryObj<ButtonProps> = {
 }
 
 //novo story, essa constante tem o tipo StoryObj como estrutura, e tem propriedades de estilo button
-export const Violet: StoryObj<ButtonProps> = {
+export const Violet: StoryObj<ButtonProps> = {  //aqui é aonde fica no menu lateral
     args: {
         children: 'Botão',
         className: 'theme-violet'
